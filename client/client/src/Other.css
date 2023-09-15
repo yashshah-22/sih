@@ -1,0 +1,81 @@
+/* Other.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Adjust the container size here */
+    grid-gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7; /* Change background color on hover */
+  }
+  
+  .feature-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5px;
+  }
+  
+  h2 {
+    font-size: 20px; /* Reduce title font size */
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px; /* Reduce text font size */
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .rating {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  /* Add colors for elements inside the containers */
+  .feature h2 {
+    color: #3498db; /* Title color */
+  }
+  
+  .feature p {
+    color: #555; /* Description color */
+  }
+  
+  .feature .rating {
+    color: #e74c3c; /* Rating color */
+  }
+  

@@ -1,0 +1,26 @@
+/* Feature.css */
+.feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .rating {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
