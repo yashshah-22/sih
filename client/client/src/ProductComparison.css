@@ -1,0 +1,110 @@
+/* Container styles */
+.product-comparison-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Sorting options styles */
+  .sorting-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sorting-options label {
+    margin-right: 10px;
+    font-weight: bold; /* Bold label text */
+    color: #007BFF; /* Blue color for label */
+  }
+  
+  /* Product list styles */
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Product item styles */
+  .product-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* White background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform and box-shadow transition */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.02); /* Slight scale-up effect on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Hover effect with stronger box shadow */
+  }
+  
+  /* Product image styles */
+  .product-image img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s ease; /* Smooth transform transition */
+  }
+  
+  .product-image img:hover {
+    transform: scale(1.1); /* Slight scale-up effect on hover */
+  }
+  
+  /* Product details styles */
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+  }
+  
+  .product-details p {
+    margin-bottom: 5px;
+    color: #555; /* Slightly darker text color */
+  }
+  
+  /* Select styles */
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff; /* White background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  select:hover {
+    border-color: #007BFF; /* Highlight border color on hover */
+  }
+  
+  /* Add more styles as needed */
+  /* Add this to your CSS file */
+
+/* Order Now button styles */
+.order-now-button {
+    background-color: #007BFF; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  
+    /* Add additional styles as needed */
+  }
+  
+  .order-now-button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  

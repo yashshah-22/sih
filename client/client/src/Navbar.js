@@ -10,7 +10,7 @@ function Navbar() {
         <a href="/" className="logo">Your Logo</a>
         <ul className="nav-links">
           <li><a href="#personalized-tracking">Personalized Tracking</a></li>
-          <li><a href="#mood-tracking">Mood Tracking</a></li>
+          <li><Link to="/eaushadi">E-Aushadi</Link></li>
           <li><a href="#community">Community</a></li>
           <li><Link to="/appointment">Doctor Consultation</Link></li>
           <li><a href="#chatbot">ChatBot</a></li>
